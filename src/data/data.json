@@ -1,0 +1,131 @@
+{
+    "Header": {
+
+        "title": "We are a Landing Page",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+
+    },
+    "About": {
+        "paragraph": "As a young, well experienced and the most innovative business corporation, we pride ourselves in delivering comprehensive and customized one stop solutions for our various verticals. With us, you can receive the complete value chain starting with catchment analysis reports, asset management, design consulting, vastu consulting, execution, implementation, project management consulting, and complete in-house manufacturing of furniture and fixtures. Our corporation is well-diversified in Hospitality, Insurance, Education, Management Consultancy and Agriculture.",
+        "Why": [
+            "Time",
+            "Quality",
+            "Cost",
+            "Well experienced"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Police Department",
+            "text": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Fire Brigade Personnel",
+            "text": "People are always asking me how is it that firefighters run into a burning building when everyone else is running out. Courage is the answer. "
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Military Personnel",
+            "text": "There’s likely a place in paradise for people who tried hard, but what really matters is succeeding. If that requires you to change, that’s your mission – General Stanley McChrystal."
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Navy Personnel",
+            "text": "The Navy is much more than a job; much more than service to country. It is a way of life. It gets in your blood."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Hospital Nurses",
+            "text": "Nurses are a unique kind. They have this insatiable need to care for others, which is both their greatest strength and fatal flaw."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Old Age Homes",
+            "text": "To keep the heart unwrinkled, to be hopeful, kindly, cheerful, reverent - that is to triumph over old age."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": " Sadanand S. Pawar",
+            "job": "Global CEO"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Varsha S. Pawar",
+            "job": "Director"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Anushka S. Pawar",
+            "job": "Chief Strategist"
+        }
+    ],
+    "Contact": {
+        "address": "Unit Number 7, Punjab Dairy Complex, Pimpari Pada, Malad East, Mumbai 400097 ",
+        "phone": "+91-7021696130",
+        "email": "info@svagroup.in",
+        "facebook": "https://www.facebook.com/SVA-Corporation-169344003410678 ",
+        "instagram": "https://www.instagram.com/sva_corporation/",
+        "linkedin": " https://www.linkedin.com/company/13657835/admin/"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
