@@ -22,7 +22,7 @@ export const Gallery = (props) => {
                         <i className="fa fa-times" aria-hidden="true" style={{color:'red',cursor: 'pointer',fontSize:'25px',display:'flex',justifyContent:'flex-end'}} onClick={()=>setModalIsOpen(false)}></i>
                         <img src='img/Verticals/1.jpg' className="center"/>
                       <h1 className="vertivals"> Architectural Design & Build </h1>
-                      <h3>We are the passion. We are here to transform your Dreams into Reality. We nurture your Pride & Self Esteem.</h3>
+                      <h3 >We are the passion. We are here to transform your Dreams into Reality. We nurture your Pride & Self Esteem.</h3>
                       <h3>We specialized in serving following industries/sectors:</h3>
                       <ul >
                         <li>Retail</li>
