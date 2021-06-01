@@ -18,7 +18,8 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
       <Modal isOpen={ModalIsOpen} onRequestClose={()=>setModalIsOpen(false)}
-                      style={{overlay:{background:'grey'},content:{marginTop:'50px'}}}>
+                      style={{overlay:{background:'grey',marginTop:'35px'},content:{marginTop:'50px'}}}>
+                        <i className="fa fa-times" aria-hidden="true" style={{color:'red',cursor: 'pointer',fontSize:'25px',display:'flex',justifyContent:'flex-end'}} onClick={()=>setModalIsOpen(false)}></i>
                         <img src='img/Verticals/1.jpg' className="center"/>
                       <h1 className="vertivals"> Architectural Design & Build </h1>
                       <h3>We are the passion. We are here to transform your Dreams into Reality. We nurture your Pride & Self Esteem.</h3>
@@ -34,7 +35,8 @@ export const Gallery = (props) => {
       </Modal>
 
       <Modal isOpen={hos} onRequestClose={()=>sethos(false)}
-                      style={{overlay:{background:'grey'},content:{marginTop:'50px'}}}>
+                      style={{overlay:{background:'grey',marginTop:'35px'},content:{marginTop:'50px'}}}>
+                        <i className="fa fa-times" aria-hidden="true" style={{color:'red',cursor: 'pointer',fontSize:'25px',display:'flex',justifyContent:'flex-end'}} onClick={()=>sethos(false)}></i>
                         <img src='img/Verticals/2.jpg' className="center"/>
                       <h1 className="vertivals">Hospitality </h1>
                       <ul >
@@ -55,7 +57,8 @@ export const Gallery = (props) => {
       </Modal>
 
       <Modal isOpen={mana} onRequestClose={()=>setMana(false)}
-                      style={{overlay:{background:'grey'},content:{marginTop:'50px'}}}>
+                      style={{overlay:{background:'grey',marginTop:'35px'},content:{marginTop:'50px'}}}>
+                        <i className="fa fa-times" aria-hidden="true" style={{color:'red',cursor: 'pointer',fontSize:'25px',display:'flex',justifyContent:'flex-end'}} onClick={()=>setMana(false)}></i>
                         <img src='img/Verticals/3.jpg' className="center"/>
                       <h1 className="vertivals">management </h1>
                       <h3>SVA Corporation specializes in :</h3>
@@ -98,21 +101,25 @@ export const Gallery = (props) => {
       </Modal>
 
       <Modal isOpen={agri} onRequestClose={()=>setAgri(false)}
-                      style={{overlay:{background:'grey'},content:{marginTop:'50px'}}}>
+                      style={{overlay:{background:'grey',marginTop:'35px'},content:{marginTop:'50px'}}}>
+                        <i className="fa fa-times" aria-hidden="true" style={{color:'red',cursor: 'pointer',fontSize:'25px',display:'flex',justifyContent:'flex-end'}} onClick={()=>setAgri(false)}></i>
                         <img src='img/Verticals/4.jpg' className="center"/>
                       <h1 className="vertivals">Agriculture </h1>
                       <h3>SVA Corporation contemplates to enter into Contract farming with most advanced technologies and invites enthusiastic farmers to join in our mission.</h3>
       </Modal>
 
       <Modal isOpen={insu} onRequestClose={()=>setInsu(false)}
-                      style={{overlay:{background:'grey'},content:{marginTop:'50px'}}}>
+                      style={{overlay:{background:'grey',marginTop:'35px'},content:{marginTop:'50px'}}}>
+                        <i className="fa fa-times" aria-hidden="true" style={{color:'red',cursor: 'pointer',fontSize:'25px',display:'flex',justifyContent:'flex-end'}} onClick={()=>setInsu(false)}></i>
                         <img src='img/Verticals/5.jpg' className="center"/>
                       <h1 className="vertivals">Insurance </h1>
                       <h3>SVA Corporation intends to help everyone have a safe and secured life and hence has come up with Insurance working. We work in providing Corporate & Personal Insurances along with scientific wealth management programs and portfolios.</h3>
       </Modal>
 
       <Modal isOpen={edu} onRequestClose={()=>setEdu(false)}
-                      style={{overlay:{background:'grey'},content:{marginTop:'50px'}}}>
+
+style={{overlay:{background:'grey',marginTop:'35px'},content:{marginTop:'50px'}}}>
+                        <i className="fa fa-times" aria-hidden="true" style={{color:'red',cursor: 'pointer',fontSize:'25px',display:'flex',justifyContent:'flex-end'}} onClick={()=>setEdu(false)}></i>
                         <img src='img/Verticals/6.jpg' className="center"/>
                       <h1 className="vertivals">Education </h1>
                       <h4>Education is important in life because it gives people the skills and tools they need to navigate the world. Without education, people would not be able to read, write, calculate or communicate; they would also not be able to perform jobs competently, accurately and safely. Education also teaches people about the world in which they live, including information about history, philosophy and culture.</h4>

@@ -1,5 +1,6 @@
 import Modal from "react-modal"
 import React,{useState} from "react"
+import "./gallery.css"
 Modal.setAppElement('#root')
 export const Team = (props) => {
 
@@ -19,15 +20,13 @@ export const Team = (props) => {
       <div className='container'>
 
         <Modal isOpen={ModalIsOpen} onRequestClose={()=>setModalIsOpen(false)}
-         style={{overlay:{background:'grey'},content:{marginTop:'50px'}}}>
-          <img src='img/team/1.jpg'/>
+         style={{overlay:{background:'grey',marginTop:'35px'},content:{marginTop:'50px',display:'flex',flexDirection:'column',justifyContent:'flex-start'}}}>
+           <i className="fa fa-times" aria-hidden="true" style={{color:'red',cursor: 'pointer',fontSize:'25px',display:'flex',justifyContent:'flex-end'}} onClick={()=>setModalIsOpen(false)}></i>
           
-          {/* <hr style={content:{height:'2px',border-width:'0',color:'gray',background-color:'gray'}}/> */}
-          
-
+          <img  src='img/team/1.jpg'/>
           <img src='img/team/2.jpg'/>
-          <br/>
           <img src='img/team/3.jpg'/> 
+         
           
         </Modal>
        
