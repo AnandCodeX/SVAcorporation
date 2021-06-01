@@ -6,8 +6,8 @@ export const Header = (props) => {
     <header id='header'>
       <div className='intro'>
         <div className='overlay'>
-          <div className='container'>
-          <Carousel autoPlay={true} infiniteLoop={true} interval={2500}>
+          <div className='container '>
+          <Carousel autoPlay={true} infiniteLoop={true} interval={2500} >
           <div>
 					<img src='img/Home/9.jpg' />
 					
