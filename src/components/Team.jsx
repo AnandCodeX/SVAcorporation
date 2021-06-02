@@ -41,7 +41,7 @@ export const Team = (props) => {
                   <div className='thumbnail' onClick={modal}>
                     {' '}
                     <img src={d.img} alt='...' className='team-img' />
-                    {console.log(d.img)}
+                    
                     <div className='caption'>
                       <h4>{d.name}</h4>
                       <p>{d.job}</p>
