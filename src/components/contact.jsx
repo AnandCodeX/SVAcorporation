@@ -21,7 +21,12 @@ export const Contact = (props) => {
 		e.preventDefault();
 		console.log(name, email, message);
 		emailjs
-			.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+			.sendForm(
+				"service_m1xlsfc",
+				"template_adw4jxj",
+				e.target,
+				"user_FljbxLp6H04Inpm5YGQnj"
+			)
 			.then(
 				(result) => {
 					console.log(result.text);
@@ -31,6 +36,7 @@ export const Contact = (props) => {
 					console.log(error.text);
 				}
 			);
+		e.target.reset();
 	};
 	return (
 		<div>
